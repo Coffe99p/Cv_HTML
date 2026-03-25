@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <title>Portfólio</title>
-    <meta name="description" content="Portfólio.">
-    
+
+    <title>João Victor Fabijaki — Analista de Segurança & Eng. de Software</title>
+    <meta name="description" content="Portfolio de João Victor Fabijaki — Analista de Segurança da Informação e Engenheiro de Software. Especialista em Cloud Azure, Firewalls e Microsoft 365. Joinville-SC.">
+
+    <meta property="og:title" content="João Victor Fabijaki — Analista de Segurança & Eng. de Software">
+    <meta property="og:description" content="Portfolio de segurança da informação, cloud Azure e engenharia de software. Joinville-SC.">
+    <meta property="og:image" content="itens/header_nova.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-    <link rel="icon" type="image/png" href="favicon.png">
-
+    <link rel="icon" type="image/svg+xml" href="itens/favicon.svg">
 </head>
 <body>
+
+    <div id="scroll-progress" class="scroll-progress"></div>
 
     <header class="header">
         <div class="header__container container">
             <nav class="header__nav">
                 <ul class="header__menu">
                     <li class="header__item"><a href="#home" class="header__link">Início</a></li>
+                    <li class="header__item"><a href="#projetos" class="header__link">Projetos</a></li>
                     <li class="header__item"><a href="#formacao" class="header__link">Formação</a></li>
                     <li class="header__item"><a href="#extracurricular" class="header__link">Extracurricular</a></li>
                     <li class="header__item"><a href="#experiencia" class="header__link">Experiência</a></li>
-
                     <li class="language-switcher">
-                    <span>🇧🇷 PT</span> | 
-                    <a href="index-en.html">us EN</a>
+                        <span>🇧🇷 PT</span> |
+                        <a href="index-en.html">🇺🇸 EN</a>
                     </li>
                 </ul>
             </nav>
@@ -43,15 +47,13 @@
     </header>
 
     <main id="main-content">
-        
+
         <section id="home" class="hero section">
             <div class="container hero-layout">
                 <div class="hero__content">
-                    <h1 class="hero__title">
-                        JOÃO VICTOR FABIJAKI
-                    </h1>
-                    <p class="hero__subtitle">Analista de Segurança & Eng. de Software</p>
-                    
+                    <h1 class="hero__title">JOÃO VICTOR FABIJAKI</h1>
+                    <p class="hero__subtitle" id="typing-subtitle">Analista de Segurança</p>
+
                     <ul class="contact-list-hero">
                         <li><i class="fa fa-envelope"></i> joaov.fabijaki@gmail.com</li>
                         <li><i class="fab fa-linkedin"></i> linkedin.com/in/joaofabijaki99</li>
@@ -66,11 +68,11 @@
                     </div>
 
                     <div class="hero__actions">
-                        <a href="Itens/port_BR.pdf" target="_blank" rel="noopener noreferrer" class="button button--primary">Baixar CV</a>
+                        <a href="itens/CV-Port.pdf" target="_blank" rel="noopener noreferrer" class="button button--primary">Baixar CV</a>
                         <a href="https://www.linkedin.com/in/joaofabijaki99/" target="_blank" class="button button--secondary">LinkedIn</a>
                     </div>
                 </div>
-                
+
                 <div class="hero__image-wrapper">
                     <div class="hero__image"></div>
                 </div>
@@ -79,166 +81,233 @@
 
         <section id="skills" class="section">
             <div class="container">
-        <header class="section-header">
-            <div class="icon-box"><i class="fa fa-code"></i></div>
-            <h2 class="section-header__title">Tech Stack</h2>
-        </header>
+                <header class="section-header reveal">
+                    <div class="icon-box"><i class="fa fa-code"></i></div>
+                    <h2 class="section-header__title">Tech Stack</h2>
+                </header>
 
-        <div class="skills-grid">
-            <div class="skill-card">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" style="margin-bottom: 15px; display: block; margin-left: auto; margin-right: auto;">
-                    <path fill="#0078D4" d="M5.4 18.9l-4.1 3.5L8.9 3.6h5.3L5.4 18.9zM24 22.4l-7.3-15h-5.2L24 22.4z"/>
-                </svg>
-                 <span>Microsoft Azure</span>
-            </div>
-            <div class="skill-card">
-                <i class="fab fa-linux"></i>
-                <span>Linux</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa fa-shield-alt"></i>
-                <span>Firewalls</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa fa-chart-line"></i>
-                <span>Zabbix</span>
-            </div>
-            <div class="skill-card">
-                <i class="fa fa-network-wired"></i>
-                <span>Redes & VPN</span>
-            </div>
-            <div class="skill-card">
-                <i class="fab fa-windows"></i>
-                <span>Microsoft 365</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="soft-skills" class="section section--alt-bg">
-    <div class="container">
-        <header class="section-header">
-            <div class="icon-box"><i class="fa fa-users-cog"></i></div>
-            <h2 class="section-header__title">Perfil Comportamental (DISC)</h2>
-        </header>
-
-        <div class="disc-wrapper">
-            <div class="disc-summary">
-                <h3>Perfil Analítico-Estável (C-S)</h3>
-                <p>
-                    De acordo com a metodologia Innermetrix, possuo um perfil focado em <strong>Precisão e Consistência</strong>. 
-                    Minha pontuação extremamente alta em <strong>Cautela (99%)</strong> indica uma forte orientação para qualidade, lógica e conformidade com padrões técnicos.
-                    Combinado com a <strong>Estabilidade (77%)</strong>, atuo de forma paciente e metódica, ideal para resolução de problemas complexos e arquitetura de soluções seguras.
-                </p>
-                
-                <div class="soft-tags">
-                    <span>Pensamento Crítico</span>
-                    <span>Alta Precisão</span>
-                    <span>Foco em Qualidade</span>
-                    <span>Processos Estruturados</span>
-                </div>
-
-                <div style="margin-top: 30px;">
-                    <a href="Itens/analise-comportamental-joao.pdf" target="_blank" class="button button--secondary">
-                        <i class="fa fa-file-pdf" style="margin-right: 8px;"></i> Ver Relatório Completo
-                    </a>
-                </div>
-            </div>
-
-            <div class="disc-chart">
-                
-                <div class="disc-item">
-                    <div class="disc-info">
-                        <span class="disc-letter" style="color: #3498db;">C</span>
-                        <span class="disc-label">Cautela (Analista)</span>
-                        <span class="disc-percent">99%</span>
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" style="margin-bottom: 15px; display: block; margin-left: auto; margin-right: auto;">
+                            <path fill="#00D4FF" d="M5.4 18.9l-4.1 3.5L8.9 3.6h5.3L5.4 18.9zM24 22.4l-7.3-15h-5.2L24 22.4z"/>
+                        </svg>
+                        <span>Microsoft Azure</span>
                     </div>
-                    <div class="progress-bg">
-                        <div class="progress-fill" style="width: 99%; background-color: #3498db;"></div>
+                    <div class="skill-card reveal">
+                        <i class="fab fa-linux"></i>
+                        <span>Linux</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <i class="fa fa-shield-alt"></i>
+                        <span>Firewalls</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <i class="fa fa-chart-line"></i>
+                        <span>Zabbix</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <i class="fa fa-network-wired"></i>
+                        <span>Redes & VPN</span>
+                    </div>
+                    <div class="skill-card reveal">
+                        <i class="fab fa-windows"></i>
+                        <span>Microsoft 365</span>
                     </div>
                 </div>
-
-                <div class="disc-item">
-                    <div class="disc-info">
-                        <span class="disc-letter" style="color: #2ecc71;">S</span>
-                        <span class="disc-label">Estabilidade (Planejador)</span>
-                        <span class="disc-percent">77%</span>
-                    </div>
-                    <div class="progress-bg">
-                        <div class="progress-fill" style="width: 77%; background-color: #2ecc71;"></div>
-                    </div>
-                </div>
-
-                <div class="disc-item">
-                    <div class="disc-info">
-                        <span class="disc-letter" style="color: #e74c3c;">D</span>
-                        <span class="disc-label">Dominância (Executor)</span>
-                        <span class="disc-percent">42%</span>
-                    </div>
-                    <div class="progress-bg">
-                        <div class="progress-fill" style="width: 42%; background-color: #e74c3c;"></div>
-                    </div>
-                </div>
-
-                <div class="disc-item">
-                    <div class="disc-info">
-                        <span class="disc-letter" style="color: #f1c40f;">I</span>
-                        <span class="disc-label">Influência (Comunicador)</span>
-                        <span class="disc-percent">28%</span>
-                    </div>
-                    <div class="progress-bg">
-                        <div class="progress-fill" style="width: 28%; background-color: #f1c40f;"></div>
-                    </div>
-                </div>
-
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
-        <section id="formacao" class="section section--alt-bg">
+        <section id="soft-skills" class="section section--alt-bg">
             <div class="container">
-                <header class="section-header">
+                <header class="section-header reveal">
+                    <div class="icon-box"><i class="fa fa-users-cog"></i></div>
+                    <h2 class="section-header__title">Perfil Comportamental (DISC)</h2>
+                </header>
+
+                <div class="disc-wrapper">
+                    <div class="disc-summary reveal">
+                        <h3>Perfil Analítico-Estável (C-S)</h3>
+                        <p>
+                            De acordo com a metodologia Innermetrix, possuo um perfil focado em <strong>Precisão e Consistência</strong>.
+                            Minha pontuação extremamente alta em <strong>Cautela (99%)</strong> indica uma forte orientação para qualidade, lógica e conformidade com padrões técnicos.
+                            Combinado com a <strong>Estabilidade (77%)</strong>, atuo de forma paciente e metódica, ideal para resolução de problemas complexos e arquitetura de soluções seguras.
+                        </p>
+
+                        <div class="soft-tags">
+                            <span>Pensamento Crítico</span>
+                            <span>Alta Precisão</span>
+                            <span>Foco em Qualidade</span>
+                            <span>Processos Estruturados</span>
+                        </div>
+
+                        <div style="margin-top: 30px;">
+                            <a href="itens/analise-comportamental-joao.pdf" target="_blank" class="button button--secondary">
+                                <i class="fa fa-file-pdf"></i> Ver Relatório Completo
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="disc-chart reveal">
+                        <div class="disc-item">
+                            <div class="disc-info">
+                                <span class="disc-letter" style="color: #3498db;">C</span>
+                                <span class="disc-label">Cautela (Analista)</span>
+                                <span class="disc-percent">99%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-fill" data-width="99%" style="background-color: #3498db;"></div>
+                            </div>
+                        </div>
+
+                        <div class="disc-item">
+                            <div class="disc-info">
+                                <span class="disc-letter" style="color: #2ecc71;">S</span>
+                                <span class="disc-label">Estabilidade (Planejador)</span>
+                                <span class="disc-percent">77%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-fill" data-width="77%" style="background-color: #2ecc71;"></div>
+                            </div>
+                        </div>
+
+                        <div class="disc-item">
+                            <div class="disc-info">
+                                <span class="disc-letter" style="color: #e74c3c;">D</span>
+                                <span class="disc-label">Dominância (Executor)</span>
+                                <span class="disc-percent">42%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-fill" data-width="42%" style="background-color: #e74c3c;"></div>
+                            </div>
+                        </div>
+
+                        <div class="disc-item">
+                            <div class="disc-info">
+                                <span class="disc-letter" style="color: #f1c40f;">I</span>
+                                <span class="disc-label">Influência (Comunicador)</span>
+                                <span class="disc-percent">28%</span>
+                            </div>
+                            <div class="progress-bg">
+                                <div class="progress-fill" data-width="28%" style="background-color: #f1c40f;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section section--alt-bg">
+            <div class="container">
+                <header class="section-header reveal">
+                    <div class="icon-box"><i class="fa fa-folder-open"></i></div>
+                    <h2 class="section-header__title">Projetos</h2>
+                </header>
+
+                <div class="projects-grid">
+
+                    <div class="project-card reveal">
+                        <div class="project-card__image">
+                            <img src="itens/news-digester-screenshot.png" alt="News Digester Pro — Dashboard" loading="lazy">
+                            <div class="project-card__overlay">
+                                <span class="project-badge project-badge--private">
+                                    <i class="fa fa-lock"></i> Acesso Privado
+                                </span>
+                            </div>
+                        </div>
+                        <div class="project-card__body">
+                            <h3 class="project-card__title">News Digester Pro</h3>
+                            <p class="project-card__desc">
+                                Plataforma de inteligência em cibersegurança que coleta, analisa com IA e exporta notícias de fontes especializadas para um pipeline de publicação automatizado no LinkedIn.
+                            </p>
+                            <div class="project-card__tags">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Supabase</span>
+                                <span>Gemini AI</span>
+                                <span>Firecrawl</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <span class="project-link project-link--disabled">
+                                    <i class="fa fa-eye-slash"></i> Acesso restrito
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card reveal">
+                        <div class="project-card__image project-card__image--icon">
+                            <div class="project-icon-bg">
+                                <i class="fa fa-bug"></i>
+                            </div>
+                            <div class="project-card__overlay">
+                                <span class="project-badge project-badge--security">
+                                    <i class="fa fa-shield-alt"></i> Uso Autorizado
+                                </span>
+                            </div>
+                        </div>
+                        <div class="project-card__body">
+                            <h3 class="project-card__title">bot_pentest</h3>
+                            <p class="project-card__desc">
+                                Ferramenta Python para testes de penetração em formulários web. Simula comportamento humano com evasão avançada de anti-bots, rotação de identidade via Tor e geração de dados brasileiros realistas.
+                            </p>
+                            <div class="project-card__tags">
+                                <span>Python</span>
+                                <span>Playwright</span>
+                                <span>Tor</span>
+                                <span>Asyncio</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <span class="project-link project-link--private">
+                                    <i class="fa fa-lock"></i> Repositório Privado
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="section">
+            <div class="container">
+                <header class="section-header reveal">
                     <div class="icon-box"><i class="fa fa-graduation-cap"></i></div>
                     <h2 class="section-header__title">Formação & Cursos</h2>
                 </header>
 
                 <div class="timeline">
-                    <div class="timeline-item left">
+                    <div class="timeline-item left reveal">
                         <div class="timeline-icon">T</div>
                         <div class="content-box">
-                            <a href="Itens/Uni.jpg" class="cert-link" target="_blank" title="Ver Certificado">
+                            <a href="itens/Uni.jpg" class="cert-link" target="_blank" title="Ver Certificado">
                                 <i class="fa fa-external-link-alt"></i>
                             </a>
-                            
                             <h3>Técnico em Informática</h3>
                             <div class="institution">Escola Técnica Tupy</div>
                             <span class="date">Conclusão: 07/2023</span>
                             <p>Formação técnica completa. Destaque em desenvolvimento e automação.</p>
                         </div>
                     </div>
-                    
-                    <div class="timeline-item right">
+
+                    <div class="timeline-item right reveal">
                         <div class="timeline-icon"><i class="fa fa-shield-alt"></i></div>
                         <div class="content-box">
                             <a href="https://www.credly.com/badges/5933a536-8b8e-48c5-8219-90d3f0dfa8ed/public_url" class="cert-link" target="_blank" title="Ver Certificado">
                                 <i class="fa fa-external-link-alt"></i>
                             </a>
-
                             <h3>Cibersegurança Básica</h3>
                             <div class="institution">Cisco Academy</div>
                             <span class="date">Mar 2023 • Carga: 15h</span>
                             <p>Fundamentos de segurança da informação e proteção de dados.</p>
                         </div>
                     </div>
-                    
-                    <div class="timeline-item left">
+
+                    <div class="timeline-item left reveal">
                         <div class="timeline-icon"><i class="fa fa-lock"></i></div>
                         <div class="content-box">
-                            <a href="Itens/Sophos.jpeg" class="cert-link" target="_blank" title="Ver Certificado">
+                            <a href="itens/Sophos.jpeg" class="cert-link" target="_blank" title="Ver Certificado">
                                 <i class="fa fa-external-link-alt"></i>
                             </a>
-
                             <h3>Endpoint & Server Engineer</h3>
                             <div class="institution">Sophos</div>
                             <span class="date">Nov 2023 • Carga: 8h</span>
@@ -246,13 +315,12 @@
                         </div>
                     </div>
 
-                    <div class="timeline-item right">
-                        <div class="timeline-icon"><i class=" fa fa-network-wired"></i></div>
+                    <div class="timeline-item right reveal">
+                        <div class="timeline-icon"><i class="fa fa-network-wired"></i></div>
                         <div class="content-box">
                             <a href="https://www.credly.com/badges/f400326d-bca4-4876-aa11-ea18dce1ae86/linked_in_profile" class="cert-link" target="_blank" title="Ver Certificado">
                                 <i class="fa fa-external-link-alt"></i>
                             </a>
-
                             <h3>Gerenciamento e defesa de redes</h3>
                             <div class="institution">Cisco Academy</div>
                             <span class="date">Dez 2023 • Carga: 27h</span>
@@ -260,27 +328,25 @@
                         </div>
                     </div>
 
-                    <div class="timeline-item left">
+                    <div class="timeline-item left reveal">
                         <div class="timeline-icon"><i class="fa fa-server"></i></div>
                         <div class="content-box">
                             <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-69126b67-35d7-4bad-95ac-857d4d841344.pdf" class="cert-link" target="_blank" title="Ver Certificado">
                                 <i class="fa fa-external-link-alt"></i>
                             </a>
-
                             <h3>Firewall Pfsense v2025</h3>
                             <div class="institution">Udemy</div>
                             <span class="date">Ago 2024 • Carga: 20h</span>
                             <p>Implementação de Gateway, VPNs (OpenVPN), HAProxy, PfBlockerNG e regras avançadas de firewall.</p>
                         </div>
                     </div>
-                    
-                    <div class="timeline-item right">
+
+                    <div class="timeline-item right reveal">
                         <div class="timeline-icon">E</div>
                         <div class="content-box">
-                            <a href="LINK_DO_CURSO_AQUI" class="cert-link" target="_blank" title="Ver Grade">
+                            <a href="#" class="cert-link cert-link--disabled" title="Link em breve">
                                 <i class="fa fa-external-link-alt"></i>
                             </a>
-
                             <h3>Engenharia de Software</h3>
                             <div class="institution">PUCPR (Católica)</div>
                             <span class="date">Ago 2024 - Dez 2028 (Previsão)</span>
@@ -291,18 +357,18 @@
             </div>
         </section>
 
-        <section id="extracurricular" class="section">
+        <section id="extracurricular" class="section section--alt-bg">
             <div class="container">
-                <header class="section-header">
+                <header class="section-header reveal">
                     <div class="icon-box"><i class="fa fa-heart"></i></div>
                     <h2 class="section-header__title">Extracurricular</h2>
                 </header>
 
-                <div class="interests-wrapper">
+                <div class="interests-wrapper reveal">
                     <div class="interest-content-area">
                         <div id="firefighter" class="interest-tab-content active-content">
                             <h3>Bombeiro Voluntário</h3>
-                            <p>Aprovado no 40º Curso de Formação de Bombeiro Voluntário Operacional de Joinville (2023). Experiência em disciplina rígida, hierarquia e trabalho sob pressão. (https://www.cbvj.org.br/blog/lista-dos-aprovados-para-o-40o-curso-de-formacao-aos-domingos/)</p>
+                            <p>Aprovado no 40º Curso de Formação de Bombeiro Voluntário Operacional de Joinville (2023). Experiência em disciplina rígida, hierarquia e trabalho sob pressão. <a href="https://www.cbvj.org.br/blog/lista-dos-aprovados-para-o-40o-curso-de-formacao-aos-domingos/" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent);">Ver aprovados</a></p>
                         </div>
                         <div id="robotics" class="interest-tab-content">
                             <h3>Robótica Industrial</h3>
@@ -310,7 +376,7 @@
                         </div>
                         <div id="exchange" class="interest-tab-content">
                             <h3>Intercâmbio (EUA)</h3>
-                            <p>Vivência em Houston, Texas (2018-2019, 2022 (6 meses), 2025(8 meses)). Fluência no inglês (C1) e adaptabilidade cultural.</p>
+                            <p>Vivência em Houston, Texas (2018-2019, 2022 (6 meses), 2025 (8 meses)). Fluência no inglês (C1) e adaptabilidade cultural.</p>
                         </div>
                         <div id="projects" class="interest-tab-content">
                             <h3>Projetos Pessoais</h3>
@@ -335,118 +401,112 @@
             </div>
         </section>
 
-        <section id="experiencia" class="section section--alt-bg">
+        <section id="experiencia" class="section">
             <div class="container">
-                <header class="section-header">
+                <header class="section-header reveal">
                     <div class="icon-box"><i class="fa fa-briefcase"></i></div>
                     <h2 class="section-header__title">Experiência</h2>
                 </header>
 
                 <div class="timeline">
-                    <div class="timeline-item left">
+                    <div class="timeline-item left reveal">
                         <div class="timeline-icon"><i class="fa fa-laptop"></i></div>
                         <div class="content-box">
                             <h3>Estagiário de TI</h3>
                             <div class="institution">A1Hub</div>
                             <span class="date">Mai 2023 - Set 2023</span>
                             <p>Suporte técnico, servidores e atendimento ao usuário.</p>
-                            
                             <div class="read-more" onclick="openModal(
-                                'Estagiário de TI', 
-                                'A1Hub', 
-                                'Mai 2023 - Set 2023', 
+                                'Estagiário de TI',
+                                'A1Hub',
+                                'Mai 2023 - Set 2023',
                                 '<strong>Computadores:</strong><ul><li>Suporte técnico em hardware e software, diagnóstico e solução.</li><li>Gerenciamento de servidores e sistemas de controle.</li></ul><br><strong>Infraestrutura:</strong><ul><li>Manutenção e organização de cabeamento estruturado.</li><li>Substituição e controle de equipamentos.</li></ul><br><strong>Atendimento:</strong><ul><li>Suporte presencial, remoto e telefônico.</li><li>Ênfase em ambientes de impressão.</li></ul>'
-                                )">...</div>
+                            )">...</div>
                         </div>
                     </div>
-                    <div class="timeline-item right">
+
+                    <div class="timeline-item right reveal">
                         <div class="timeline-icon"><i class="fa fa-shield-alt"></i></div>
                         <div class="content-box">
                             <h3>Estágio em Segurança</h3>
                             <div class="institution">Contego Security</div>
                             <span class="date">Set 2023 - Jan 2024</span>
                             <p>Monitoramento Zabbix, Firewalls e backups.</p>
-                            
                             <div class="read-more" onclick="openModal(
                                 'Estágio em Segurança',
                                 'Contego Security',
                                 'Set 2023 - Jan 2024',
                                 '<strong>Zabbix:</strong><ul><li>Monitoramento, revisão de triggers e dashboards.</li><li>Integração com plataformas (Zoho/Wazuh).</li><li>Configuração de agentes em servidores Linux.</li></ul><br><strong>Sophos:</strong><ul><li>Suporte N3 em VPN e regras de firewall.</li><li>Registro no Sophos Central e simulação de phishing.</li></ul><br><strong>Acronis:</strong><ul><li>Gestão de backups, licenças e planos de proteção.</li><li>Instalação de agentes e monitoramento de alertas.</li></ul><br><strong>Microsoft 365:</strong><ul><li>Criação e gestão de contas, licenças e grupos.</li><li>Suporte ao Azure.</li></ul>'
-                                )">...</div>
+                            )">...</div>
                         </div>
                     </div>
-                    <div class="timeline-item left">
-                    <div class="timeline-icon"><i class="fa fa-user-shield"></i></div>
-                    
-                    <div class="content-box">
+
+                    <div class="timeline-item left reveal">
+                        <div class="timeline-icon"><i class="fa fa-user-shield"></i></div>
+                        <div class="content-box">
                             <h3>Analista de Segurança N2</h3>
                             <div class="institution">Microtech Informática</div>
                             <span class="date">Fev 2024 - Dez 2024</span>
-                            
                             <p>Administração de AD, Windows Server, M365 e implementação de infraestrutura de segurança.</p>
-                            
                             <div class="read-more" onclick="openModal(
                                 'Analista de infraestrutura N2',
                                 'Microtech Informática',
                                 'Fev 2024 - Dez 2024',
                                 '<strong>Active Directory (AD):</strong><ul><li>Gerenciamento de usuários, grupos e GPOs.</li><li>Resolução de problemas de autenticação.</li></ul><br><strong>Windows Server:</strong><ul><li>Configuração de DHCP, DNS e Arquivos.</li><li>Políticas de segurança.</li></ul><br><strong>Microsoft 365:</strong><ul><li>Administração de contas e licenças.</li></ul><br><strong>Help Desk N2:</strong><ul><li>Resolução de incidentes complexos.</li></ul><br><strong>Segurança:</strong><ul><li>Firewalls PfSense, VPNs (OpenVPN) e Bitdefender.</li></ul>'
-                                    )">...</div>
-                        </div> 
-                    </div> 
-                    
-                    <div class="timeline-item right">
-                    <div class="timeline-icon"><i class="fa fa-cloud"></i></div>
-                    <div class="content-box">
-                        <h3>Analista Cloud - NOC</h3>
-                        <div class="institution">SGA TI em Nuvem</div>
-                        <span class="date">Fev 2025 - O momento</span>
-                        
-                        <p>Gestão e otimização de Azure (IaaS/PaaS), observabilidade unificada (Grafana/Datadog) e automação de incidentes.</p>
-                        
-                        <div class="read-more" onclick="openModal(
-                            'Analista Cloud - SOC',
-                            'SGA TI em Nuvem',
-                            'Fev 2025 - O momento',
-                            '<strong>Gestão de Cloud Azure & Monitoramento:</strong><ul><li>Administração e otimização de ambientes Azure (IaaS/PaaS).</li><li>Desenho de arquiteturas híbridas (Azure Monitor, Zabbix e Datadog).</li><li>Revisão periódica para right-sizing e mitigação de riscos.</li></ul><br><strong>Observabilidade & Visualização:</strong><ul><li>Centralização de métricas Azure no Grafana (Single Pane of Glass).</li><li>KPIs de saúde e performance (Ecossistema M365).</li><li>Regras de alerta proativo no Datadog.</li></ul><br><strong>Automação & ITSM:</strong><ul><li>Automação de fluxos Azure integrados ao MoveDesk.</li><li>Scripts para self-healing e redução de MTTR.</li></ul><br><strong>Governança & Documentação:</strong><ul><li>Documentação técnica e runbooks no Confluence.</li><li>Relatórios executivos de saúde da nuvem e capacity planning.</li><li>Alinhamento com melhores práticas Azure.</li></ul>'
-                        )">...</div>    
-                    </div>
-
-                        </section>
-                    </main>
-
-                    <section id="contato" class="section section--alt-bg">
-                    <div class="container">
-                        <div class="cta-wrapper">
-                            
-                            <div class="cta-content">
-                                <h2 class="cta-title">Entre em contato!</h2>
-                                <p class="cta-text">
-                                    Combinando expertise técnica em Cloud & Segurança com a comunicação necessária para times globais.
-                                </p>
-                            </div>
-                            <div class="cta-actions">
-                                <a href="https://www.linkedin.com/in/joaofabijaki99/" target="_blank" class="button button--primary big-btn">
-                                    <i class="fab fa-linkedin"></i>   Conectar no LinkedIn
-                                </a>
-                                <a href="mailto:joaov.fabijaki@gmail.com" class="contact-link-simple">
-                                    <i class="fa fa-envelope"></i> joaov.fabijaki@gmail.com
-                                </a>
-                            </div>
-
+                            )">...</div>
                         </div>
                     </div>
-                </section>
 
-                    <footer class="footer">
-                        <div class="footer__container container">
-                            <div class="footer__brand">
-                                <span class="footer__logo">  </span>
-                                <p class="footer__copyright">&copy; 2025 Todos os direitos reservados.</p>
-                            </div>
-                            <ul class="footer__social">
-                            </ul>
+                    <div class="timeline-item right reveal">
+                        <div class="timeline-icon"><i class="fa fa-cloud"></i></div>
+                        <div class="content-box">
+                            <h3>Analista Cloud - NOC</h3>
+                            <div class="institution">SGA TI em Nuvem</div>
+                            <span class="date">Fev 2025 - O momento</span>
+                            <p>Gestão e otimização de Azure (IaaS/PaaS), observabilidade unificada (Grafana/Datadog) e automação de incidentes.</p>
+                            <div class="read-more" onclick="openModal(
+                                'Analista Cloud - NOC',
+                                'SGA TI em Nuvem',
+                                'Fev 2025 - O momento',
+                                '<strong>Gestão de Cloud Azure & Monitoramento:</strong><ul><li>Administração e otimização de ambientes Azure (IaaS/PaaS).</li><li>Desenho de arquiteturas híbridas (Azure Monitor, Zabbix e Datadog).</li><li>Revisão periódica para right-sizing e mitigação de riscos.</li></ul><br><strong>Observabilidade & Visualização:</strong><ul><li>Centralização de métricas Azure no Grafana (Single Pane of Glass).</li><li>KPIs de saúde e performance (Ecossistema M365).</li><li>Regras de alerta proativo no Datadog.</li></ul><br><strong>Automação & ITSM:</strong><ul><li>Automação de fluxos Azure integrados ao MoveDesk.</li><li>Scripts para self-healing e redução de MTTR.</li></ul><br><strong>Governança & Documentação:</strong><ul><li>Documentação técnica e runbooks no Confluence.</li><li>Relatórios executivos de saúde da nuvem e capacity planning.</li><li>Alinhamento com melhores práticas Azure.</li></ul>'
+                            )">...</div>
                         </div>
-                    </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section section--alt-bg">
+            <div class="container">
+                <div class="cta-wrapper reveal">
+                    <div class="cta-content">
+                        <h2 class="cta-title">Entre em contato!</h2>
+                        <p class="cta-text">
+                            Combinando expertise técnica em Cloud & Segurança com a comunicação necessária para times globais.
+                        </p>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="https://www.linkedin.com/in/joaofabijaki99/" target="_blank" class="button button--primary big-btn">
+                            <i class="fab fa-linkedin"></i> Conectar no LinkedIn
+                        </a>
+                        <a href="mailto:joaov.fabijaki@gmail.com" class="contact-link-simple">
+                            <i class="fa fa-envelope"></i> joaov.fabijaki@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__brand">
+                <p class="footer__copyright">&copy; 2025 João Victor Fabijaki. Todos os direitos reservados.</p>
+            </div>
+            <ul class="footer__social"></ul>
+        </div>
+    </footer>
 
     <div id="jobModal" class="modal-overlay">
         <div class="modal-content">
@@ -459,40 +519,14 @@
         </div>
     </div>
 
-    <script>
-        // Modal Logic
-        function openModal(title, company, date, desc) {
-            document.getElementById('modalTitle').innerText = title;
-            document.getElementById('modalCompany').innerText = company;
-            document.getElementById('modalDate').innerText = date;
-            document.getElementById('modalDesc').innerHTML = desc;
-            document.getElementById('jobModal').style.display = 'flex';
-        }
-        function closeModal() { document.getElementById('jobModal').style.display = 'none'; }
-        window.onclick = function(e) { if(e.target == document.getElementById('jobModal')) closeModal(); }
-
-        // Tabs Logic
-        function openInterest(evt, name) {
-            var i, c, l;
-            c = document.getElementsByClassName("interest-tab-content");
-            for (i=0; i<c.length; i++) { c[i].style.display = "none"; c[i].classList.remove("active-content"); }
-            l = document.getElementsByClassName("tab-btn");
-            for (i=0; i<l.length; i++) { l[i].className = l[i].className.replace(" active-btn", ""); }
-            document.getElementById(name).style.display = "block";
-            setTimeout(() => { document.getElementById(name).classList.add("active-content"); }, 10);
-            evt.currentTarget.className += " active-btn";
-        }
-
-        // Mobile Menu
-        function toggleMenu() {
-            var nav = document.querySelector('.header__nav');
-            nav.classList.toggle('active');
-        }
-    </script>
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo" title="Voltar ao topo">
+        <i class="fa fa-chevron-up"></i>
+    </button>
 
     <a href="https://wa.me/5547991508532" target="_blank" class="whatsapp-btn" title="Fale comigo no WhatsApp">
-    <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-whatsapp"></i>
     </a>
 
+    <script src="script.js"></script>
 </body>
 </html>
